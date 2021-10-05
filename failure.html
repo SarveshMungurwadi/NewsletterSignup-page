@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Failure</title>
+
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        h1{
+            font-size: 100px;
+            margin-left: 34vw;
+            margin-top: 14vw;
+            color: rgb(91, 99, 99);
+        }
+        p{
+            font-size: xx-large;
+            margin-left: 25vw;
+            color: rgb(88, 95, 95);
+        }
+        .btn{
+            background-color: rgb(219, 150, 21);
+            color: aliceblue;
+            border: 1px solid orange;
+            font-size: 29px;
+            border-radius: 9px;
+            margin-left: 45vw;
+            cursor: pointer;
+            padding: 9px;
+
+        }
+        .btn:hover{
+            background-color: rgb(182, 122, 10);
+        }
+    </style>
+</head>
+<body>
+    <h1>UH Oh!</h1>
+    <p>There was a problem signing up you,Please try again</p>
+    <form action="/failure" method="POST">
+        <button class="btn" type="submit" name="button">Try Again</button>
+    </form>
+</body>
+</html>
